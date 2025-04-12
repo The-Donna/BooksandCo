@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="Booksandco.css">
+        
+        <title>Books&Co</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="image-container">
+          <img src="Logo.png" alt="logo">
+        </div>
+        <div id="nav">
+          <ul>
+            <li class="home"><a href="Index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="Genre.html">Genre ▼</a>
+                <ul class="dropdown">
+                  <li><a href="Fiction.html">Fiction</a></li>
+                  <li><a href="Horror.html">Horror</a></li>
+                  <li><a href="Romance.html">Romance</a></li>
+                  <li><a href="Thriller.html">Action/Thriller</a></li>
+                  <li><a href="Comedy.html">Comedy</a></li>
+                </ul>
+              </li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      
+ <h1>Welcome to the Books&Co Contact Page</h1>
+
+        <h3>If you have any issues or just want to get in contact with the company, please fill out the form below.</h3>
+        
+       
+        <form action="submit_form.php" method="POST">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <h4>Alternatively, you can access the full Contact Form here: </h4>
+        <a href="https://forms.gle/Cbv35nycDQ8845g16" target="_blank">Click here to access the Contact Form</a>
+
+        <div id="footer">
+
+            <h2>Books &amp; Co</h2>
+
+            <p>&#169; 2025 Co. All Rights Reserved.
+
+        </div>
+
+</body>
